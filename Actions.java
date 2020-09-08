@@ -12,7 +12,7 @@ public class Actions {
 
     public void takeAction() {
         while(true) {
-            System.out.println("Write action (buy, fill, take, remaining exit):");
+            System.out.println("Write action (buy, fill, take, remaining, exit):");
             String action = scanner.nextLine();
             if(action.equals("exit")) {
                 break;
